@@ -23,21 +23,28 @@
 Проверка установки:
 
 `git --version`
-![Пример вывода](git_version.png)
+
+![Пример вывода](screenshots/git_version.png)
 
 
 ## 3. Работа с локальным репозиторием
 
 `git init` – создать новый репозиторий в текущей папке
-![Пример вывода](git_init.png)
+
+![Пример вывода](screenshots/git_init.png)
+
 `git status` – проверить состояние файлов
-![Пример вывода](git_status.png)
+
+![Пример вывода](screenshots/git_status.png)
+
 `git add README.md` – добавить один файл для отслеживания
 
 `git add .` – добавить все файлы в папке
 
 `git commit -m "Текст сообщения"` – сделать коммит (сохранить изменения)
-![Пример вывода](git_commit.png)
+
+![Пример вывода](screenshots/git_commit.png)
+
 `git log --oneline` – посмотреть историю коммитов
 
 `git diff` – посмотреть разницу между текущим и последним коммитом
@@ -57,7 +64,8 @@
 `git checkout main` – переключиться на ветку main
 
 `git merge local` – влить ветку local в текущую ветку
-![Пример вывода](git_merge.png)
+
+![Пример вывода](screenshots/git_merge.png)
 
 
 ## 4. Работа с удалённым репозиторием
@@ -67,7 +75,9 @@
 `git remote -v` – посмотреть связанные удалённые репозитории
 
 `git push -u origin main` – отправить изменения на GitHub (первый раз)
-![Пример вывода](git_push.png)
+
+![Пример вывода](screenshots/git_push.png)
+
 `git push origin main` – отправить изменения на GitHub (последующие разы)
 
 `git pull origin main` – загрузить изменения с GitHub
