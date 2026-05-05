@@ -62,7 +62,51 @@
 
 \## 4. Работа с удалённым репозиторием
 
+`git remote add origin https://github.com/логин/репозиторий.git` – привязать локальный репозиторий к GitHub
+
+`git remote -v` – посмотреть связанные удалённые репозитории
+
+`git push -u origin main` – отправить изменения на GitHub (первый раз)
+
+`git push origin main` – отправить изменения на GitHub (последующие разы)
+
+`git pull origin main` – загрузить изменения с GitHub
+
+`git fetch origin` – скачать изменения с GitHub без автоматического слияния
+
+`git clone https://github.com/логин/репозиторий.git` – клонировать чужой репозиторий к себе на компьютер
+
 
 
 \## 5. Работа с форками
+
+\*\*Форки\*\* – это копия чужого репозитория на вашем аккаунте GitHub.
+
+\*\*Работа с форком:\*\*
+
+1\. На странице чужого репозитория нажать кнопку \*\*Fork\*\*
+
+2\. Клонировать свой форк: `git clone https://github.com/логин/форк.git`
+
+3\. Добавить оригинальный репозиторий: `git remote add upstream https://github.com/владелец/оригинал.git`
+
+4\. Создать ветку: `git checkout -b текст`
+
+5\. Добавить изменения, затем: `git add .` и `git commit -m "описание"`
+
+6\. Отправить в свой форк: `git push origin текст`
+
+7\. На GitHub открыть \*\*Pull Request\*\*
+
+
+
+\*\*Синхронизация форка с оригиналом:\*\*
+
+`git checkout main`
+
+`git fetch upstream`
+
+`git merge upstream/main`
+
+`git push origin main`
 
