@@ -97,8 +97,6 @@ git config --global user.email "email@example.com"
 
 `git checkout main` – переключиться на ветку main
 
-![Пример вывода](screenshots/checkmain.png)
-
 `git merge local` – влить ветку local в текущую ветку
 
 ![Пример вывода](screenshots/git_merge.png)
