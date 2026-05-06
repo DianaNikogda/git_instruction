@@ -127,7 +127,11 @@ git config --global user.email "email@example.com"
 
 `git push origin main` – отправить изменения на GitHub (последующие разы)
 
+![Пример вывода](screenshots/push.png)
+
 `git pull origin main` – загрузить изменения с GitHub
+
+![Пример вывода](screenshots/pull.png)
 
 `git fetch origin` – скачать изменения с GitHub без автоматического слияния
 
